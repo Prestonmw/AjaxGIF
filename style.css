@@ -1,0 +1,50 @@
+body {
+    background: white;
+}
+
+img {
+    max-height: 150px;
+}
+
+form,
+.gameBtn {
+    background-color: #474747;
+    color: white;
+}
+
+form {
+    padding: 10px;
+}
+
+#newShowInput {
+    color: black;
+}
+
+.ratingStyle {
+    color: white;
+    background-color: black;
+}
+
+#addGame {
+    background-color: white;
+    color: #474747;
+    border: none;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+
+#Buttons {
+    margin: 10px;
+}
+
+.gameBtn {
+    padding: 6px;
+    margin: 3px;
+}
