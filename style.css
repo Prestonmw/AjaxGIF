@@ -1,50 +1,34 @@
-body {
-    background: white;
+body{
+	background: url("background.png");
+	background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: cursive;
 }
-
-img {
-    max-height: 150px;
+* {
+	box-sizing: border-box;
 }
-
-form,
-.gameBtn {
-    background-color: #474747;
-    color: white;
+img { 
+    height: 300px;
+    width: 300px;
 }
-
-form {
-    padding: 10px;
-}
-
-#newShowInput {
-    color: black;
-}
-
-.ratingStyle {
-    color: white;
+.btn {
+    
+    margin: 5px;
     background-color: black;
+    border-color:gray;
 }
-
-#addGame {
-    background-color: white;
-    color: #474747;
-    border: none;
-}
-
-input {
-    margin: 10px;
-}
-
-button {
-    background-color: rgba(255, 255, 255, 0);
-    border: none;
-}
-
-#Buttons {
-    margin: 10px;
-}
-
-.gameBtn {
-    padding: 6px;
+.gifDiv{ 
+    
+    float: left;
     margin: 3px;
+}
+.container {
+	background-color: inherit;
+	padding: 20px;
+}
+.jumbotron {
+    background-color: inherit;
+}
+.jumbotron .h1, .jumbotron h1 {
+    text-align: center;
 }
