@@ -1,6 +1,6 @@
 $( document ).ready(function() {
 	
-	var games = ["Super Mario", "Super Smash Bros.", "The Legend of Zelda", "Pokemon", "Kingdom Hearts", "Kirby", "The Elder Scrolls", "Soul Calibur", "Splatoon", "Metroid","Bayonetta", "Mortal Kombat"];
+	var games = ["Super Mario", "Super Smash Bros.", "The Legend of Zelda", "Pokemon", "Kingdom Hearts", "Kirby", "The Elder Scrolls", "Splatoon", "Metroid", "Mortal Kombat"];
 
 	function displayGifButtons(){
 		$("#gifButtonsView").empty(); 
